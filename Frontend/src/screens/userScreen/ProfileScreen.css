@@ -1,0 +1,70 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; 
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: rgb(86, 80, 80);
+  border-radius: 10px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px; /* Add space between image and name */
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.values {
+  text-align: center; /* Center align text inputs */
+}
+
+.values input, .values button {
+  margin-bottom: 10px; /* Add space between inputs and button */
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.values button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  cursor: pointer;
+}
+
+.values button:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+.values input {
+  margin-bottom: 10px; /* Add space between inputs and button */
+  width: 100%;
+  padding: 8px ;
+  border-radius: 5px;
+  border: none;
+  background-color: #ccc; /* Gray color */
+}
+
+
+/* Make name bold and change its color */
+.values h1 {
+  color: #fff; /* White color */
+  font-weight: bold;
+}
+
+.Heading-profile{
+  color: wheat;
+  padding-bottom: 15px;
+}
